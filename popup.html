@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=300, height=400">
+  <title>PrivacyGreen</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 300px;
+      padding: 12px;
+      background-color: #f5f5f5;
+      color: #333;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .logo {
+      width: 32px;
+      height: 32px;
+      margin-right: 10px;
+      background-color: #4CAF50;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+    .website-name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .rating-container {
+      margin: 15px 0;
+    }
+    .rating-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .rating-label {
+      font-weight: 500;
+      width: 120px;
+    }
+    .stars {
+      color: #FFD700;
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    .score {
+      font-weight: bold;
+      margin-left: 5px;
+    }
+    .alternatives {
+      margin-top: 20px;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+    .alternative-item {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    .alternative-item a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .alternative-item a:hover {
+      text-decoration: underline;
+    }
+    .sources {
+      font-size: 12px;
+      color: #666;
+      margin-top: 15px;
+      text-align: center;
+    }
+    .total-rating {
+      text-align: center;
+      margin: 15px 0;
+      font-size: 20px;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+    .lang-button {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 2px 5px;
+      color: #666;
+      z-index: 100;
+    }
+    .lang-button:hover {
+      color: #333;
+    }
+    .translated-note {
+      font-size: 10px;
+      color: #666;
+      font-style: italic;
+      margin-left: 3px;
+    }
+    .error {
+      color: #f44336;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <button id="lang-toggle" class="lang-button">🇩🇪</button>
+  <div class="header">
+    <div class="logo">PG</div>
+    <div class="website-name" id="website-name">Lädt...</div>
+  </div>
+  <div class="rating-container">
+    <div class="rating-row">
+      <span class="rating-label" id="privacy-label">Datenschutz:</span>
+      <span class="stars" id="privacy-stars">⭐⭐⭐⭐⭐</span>
+      <span class="score" id="privacy-score">/5</span>
+    </div>
+    <div class="rating-row">
+      <span class="rating-label" id="sustainability-label">Nachhaltigkeit:</span>
+      <span class="stars" id="sustainability-stars">⭐⭐⭐⭐⭐</span>
+      <span class="score" id="sustainability-score">/5</span>
+    </div>
+    <div class="total-rating" id="total-rating">–/5</div>
+  </div>
+  <div class="alternatives">
+    <h3 id="alternatives-label">Alternativen:</h3>
+    <div id="alternatives-list"></div>
+  </div>
+  <div class="sources" id="sources">Quellen: lokal</div>
+  <script src="popup.js"></script>
+</body>
+</html>

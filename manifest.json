@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "PrivacyGreen",
+  "version": "1.0",
+  "description": "Bewertet Datenschutz und Nachhaltigkeit von Websites in Echtzeit.",
+  "icons": {
+    "48": "icons/privacygreen-48",
+    "96": "icons/privacygreen-96"
+  },
+  "browser_action": {
+    "default_icon": "icons/privacygreen-48",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://raw.githubusercontent.com/"
+  ],
+  "author": "SanDiegoKun",
+  "homepage_url": "https://github.com/SanDiegoKun/privacygreen-db",
+  "license": "PolyForm Noncommercial 1.0.0"
+}
