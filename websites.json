@@ -1,0 +1,16 @@
+{
+  "websites": [
+    {
+      "url": "amazon.com",
+      "privacyScore": 1,
+      "sustainabilityScore": 2,
+      "alternatives": "Versuche ethical.net f\u00fcr nachhaltige Produkte."
+    },
+    {
+      "url": "ecosia.org",
+      "privacyScore": 5,
+      "sustainabilityScore": 5,
+      "alternatives": "Keine Alternativen n\u00f6tig!"
+    }
+  ]
+}
