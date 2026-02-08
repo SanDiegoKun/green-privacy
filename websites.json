@@ -5,67 +5,222 @@
       "name": "Amazon",
       "privacyScore": 3,
       "privacySource": "ToS;DR (C)",
+      "privacyDetails": "Extensives Tracking, Datenweitergabe an Dritte für personalisierte Werbung",
       "sustainabilityScore": 1,
       "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, hohe CO₂-Bilanz durch Logistik und Server",
       "alternatives": [
         {
           "name": "Ethical.net",
           "url": "https://ethical.net",
-          "description": "Nachhaltige Alternativen zu Amazon."
+          "description": "Nachhaltige Alternativen zu Amazon mit Fokus auf faire Produktion."
         }
       ],
-      "domains": ["amazon.com", "www.amazon.com", "amazon.de", "www.amazon.de"],
-      "lastUpdated": "2026-02-09"
+      "domains": [
+        "amazon.com",
+        "www.amazon.com",
+        "amazon.de",
+        "www.amazon.de",
+        "amazon.at",
+        "www.amazon.at",
+        "amazon.ch",
+        "www.amazon.ch"
+      ],
+      "lastUpdated": "2026-02-11"
+    },
+    {
+      "baseDomain": "google",
+      "name": "Google",
+      "privacyScore": 1,
+      "privacySource": "ToS;DR (E)",
+      "privacyDetails": "Umfassende Datensammlung, Werbeprofiling, Standorttracking, Datenweitergabe an Dritte",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, hoher Energieverbrauch durch Rechenzentren (CO₂-Bilanz: ~5g pro Suche)",
+      "alternatives": [
+        {
+          "name": "DuckDuckGo",
+          "url": "https://duckduckgo.com",
+          "description": "Datenschutzfreundliche Suchmaschine ohne Tracking. Nutzt anonymisierte Microsoft-Bing-Ergebnisse."
+        },
+        {
+          "name": "Startpage",
+          "url": "https://www.startpage.com",
+          "description": "Anonyme Google-Suchergebnisse ohne Tracking. Server in der EU."
+        },
+        {
+          "name": "Qwant",
+          "url": "https://www.qwant.com",
+          "description": "Europäische Suchmaschine mit Datenschutzfokus. Keine personalisierte Werbung."
+        },
+        {
+          "name": "Ecosia",
+          "url": "https://www.ecosia.org",
+          "description": "Suchmaschine, die 80% ihrer Gewinne in Aufforstungsprojekte investiert. CO₂-neutral durch Ökostrom."
+        }
+      ],
+      "domains": [
+        "google.com",
+        "www.google.com",
+        "google.de",
+        "www.google.de",
+        "google.at",
+        "www.google.at",
+        "google.ch",
+        "www.google.ch",
+        "google.fr",
+        "www.google.fr"
+      ],
+      "lastUpdated": "2026-02-11"
+    },
+    {
+      "baseDomain": "youtube",
+      "name": "YouTube",
+      "privacyScore": 2,
+      "privacySource": "ToS;DR (D)",
+      "privacyDetails": "Extensives Tracking, personalisierte Werbung, Datenverkauf an Dritte, Algorithmen-basierte Empfehlungen",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, hohe CO₂-Bilanz durch Streaming (ca. 36g CO₂ pro Stunde)",
+      "alternatives": [
+        {
+          "name": "Invidious",
+          "url": "https://invidious.io",
+          "description": "Open-Source YouTube-Frontend ohne Tracking. Dezentrale Instanzen verfügbar."
+        },
+        {
+          "name": "PeerTube",
+          "url": "https://joinpeertube.org",
+          "description": "Dezentrale Video-Plattform mit Fokus auf Datenschutz. Keine Algorithmen, community-basiert."
+        },
+        {
+          "name": "Odysee",
+          "url": "https://odysee.com",
+          "description": "Blockchain-basierte Video-Plattform mit Belohnungssystem für Creator."
+        }
+      ],
+      "domains": [
+        "youtube.com",
+        "www.youtube.com",
+        "youtu.be",
+        "m.youtube.com"
+      ],
+      "lastUpdated": "2026-02-11"
     },
     {
       "baseDomain": "netflix",
       "name": "Netflix",
       "privacyScore": 4,
       "privacySource": "ToS;DR (B)",
+      "privacyDetails": "Personalisierte Empfehlungen, aber keine Datenweitergabe an Dritte (laut ToS;DR 2026)",
       "sustainabilityScore": 1,
       "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, hoher Energieverbrauch durch Streaming (CO₂-Bilanz: ~36g pro Stunde)",
       "alternatives": [
         {
           "name": "MUBI",
           "url": "https://mubi.com",
-          "description": "Arthouse-Filme."
+          "description": "Kuratorisches Streaming mit Fokus auf Arthouse-Filme. Kein Algorithmus, sondern handverlesene Auswahl."
         },
         {
           "name": "Arte.tv",
-          "url": "https://arte.tv",
-          "description": "Kostenlose Kulturinhalte."
+          "url": "https://www.arte.tv",
+          "description": "Kostenlose, öffentlich-rechtliche Kulturinhalte und Dokumentationen. Werbefrei."
+        },
+        {
+          "name": "Criterion Channel",
+          "url": "https://www.criterionchannel.com",
+          "description": "Klassiker und Independent-Filme mit hohem künstlerischem Anspruch."
         }
       ],
-      "domains": ["netflix.com", "www.netflix.com", "netflix.de", "www.netflix.de"],
-      "lastUpdated": "2026-02-09"
+      "domains": [
+        "netflix.com",
+        "www.netflix.com",
+        "netflix.de",
+        "www.netflix.de",
+        "netflix.net",
+        "www.netflix.net"
+      ],
+      "lastUpdated": "2026-02-11"
+    },
+    {
+      "baseDomain": "disneyplus",
+      "name": "Disney+",
+      "privacyScore": 3,
+      "privacySource": "ToS;DR (C)",
+      "privacyDetails": "Tracking für personalisierte Inhalte, aber keine Datenweitergabe an Externe (laut ToS;DR 2026)",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, hohe CO₂-Bilanz durch 4K-Streaming (ca. 50g CO₂ pro Stunde)",
+      "alternatives": [
+        {
+          "name": "MUBI",
+          "url": "https://mubi.com",
+          "description": "Arthouse-Filme und Independent-Kino. Keine Algorithmen, sondern kuratierte Auswahl."
+        },
+        {
+          "name": "Arte.tv",
+          "url": "https://www.arte.tv",
+          "description": "Kostenlose Kulturinhalte und Dokumentationen. Öffentlich-rechtlich finanziert."
+        },
+        {
+          "name": "Criterion Channel",
+          "url": "https://www.criterionchannel.com",
+          "description": "Klassiker des Weltkinos mit Hintergrundinformationen und Extras."
+        }
+      ],
+      "domains": [
+        "disneyplus.com",
+        "www.disneyplus.com",
+        "disney+.com",
+        "www.disney+.com"
+      ],
+      "lastUpdated": "2026-02-11"
     },
     {
       "baseDomain": "zalando",
       "name": "Zalando",
       "privacyScore": 3,
       "privacySource": "ToS;DR (C)",
+      "privacyDetails": "Tracking für personalisierte Werbung, aber keine Datenweitergabe an Externe",
       "sustainabilityScore": 1,
       "sustainabilitySource": "The Green Web Foundation (grey)",
+      "sustainabilityDetails": "Kein Ökostrom-Hosting, Fast-Fashion-Problematik (hohe Retourenquote, ~50% der Ware wird vernichtet)",
       "alternatives": [
         {
           "name": "Avocadostore",
           "url": "https://www.avocadostore.de",
-          "description": "Nachhaltige Mode mit Ökostrom-Hosting."
+          "description": "Nachhaltige Mode mit Ökostrom-Hosting und fairen Arbeitsbedingungen. Cradle-to-Cradle-zertifiziert."
+        },
+        {
+          "name": "Armedangels",
+          "url": "https://www.armedangels.de",
+          "description": "Fair produzierte Mode mit transparenten Lieferketten. GOTS-zertifiziert."
         }
       ],
-      "domains": ["zalando.de", "www.zalando.de", "zalando.com", "www.zalando.com"],
-      "lastUpdated": "2026-02-09"
+      "domains": [
+        "zalando.de",
+        "www.zalando.de",
+        "zalando.com",
+        "www.zalando.com"
+      ],
+      "lastUpdated": "2026-02-11"
     },
     {
       "baseDomain": "ecosia",
       "name": "Ecosia",
       "privacyScore": 5,
       "privacySource": "ToS;DR (A)",
+      "privacyDetails": "Kein Tracking, keine personalisierte Werbung, transparente Datenschutzrichtlinien",
       "sustainabilityScore": 5,
       "sustainabilitySource": "The Green Web Foundation (green)",
+      "sustainabilityDetails": "100% Ökostrom, CO₂-negative Server, 80% der Gewinne für Aufforstung (über 100 Mio. Bäume gepflanzt)",
       "alternatives": [],
-      "domains": ["ecosia.org", "www.ecosia.org"],
-      "lastUpdated": "2026-02-09"
+      "domains": [
+        "ecosia.org",
+        "www.ecosia.org"
+      ],
+      "lastUpdated": "2026-02-11"
     }
   ]
 }
