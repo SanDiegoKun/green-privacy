@@ -14,9 +14,11 @@ Die Daten liegen im Format `websites.json` vor und enthalten:
 [PolyForm Noncommercial License 1.0.0](LICENSE)
 
 ## Nutzung
-Die Daten werden vom [PrivacyGreen Add-on](https://github.com/dein-benutzername/privacygreen) genutzt.
+Die Daten werden vom [PrivacyGreen Add-on](https://github.com/SanDiegoKun/privacygreen-db) genutzt.
 ## Kommerzielle Nutzung
-Für kommerzielle Lizenzen erstellt bitte ein [privates Issue](https://github.com/SanDiegoKun/privacygreen-licensing/issues/new/choose) (nur für dich und mich sichtbar).
+Für kommerzielle Lizenzen, meldet Euch bitte über die folgenden Accounts:
+- https://x.com/SanDiegoKun
+- https://mastodon.social/@sandiegokun
 
 
 
@@ -44,6 +46,6 @@ Data is provided in `websites.json` format and includes:
 This data is used by the [PrivacyGreen Add-on](https://github.com/SanDiegoKun/privacygreen).
 
 ## Commercial Use
-For commercial licenses, please [create a private issue](https://github.com/SanDiegoKun/privacygreen-licensing/issues/new/choose) (visible only to you and me).
-
-*Note: A GitHub account is required for private requests.*
+For commercial licenses, please use the following methods:
+- https://x.com/SanDiegoKun
+- https://mastodon.social/@sandiegokun
