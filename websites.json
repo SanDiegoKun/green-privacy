@@ -1,16 +1,71 @@
 {
   "websites": [
     {
-      "url": "amazon.com",
-      "privacyScore": 1,
-      "sustainabilityScore": 2,
-      "alternatives": "Versuche ethical.net f\u00fcr nachhaltige Produkte."
+      "baseDomain": "amazon",
+      "name": "Amazon",
+      "privacyScore": 3,
+      "privacySource": "ToS;DR (C)",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "alternatives": [
+        {
+          "name": "Ethical.net",
+          "url": "https://ethical.net",
+          "description": "Nachhaltige Alternativen zu Amazon."
+        }
+      ],
+      "domains": ["amazon.com", "www.amazon.com", "amazon.de", "www.amazon.de"],
+      "lastUpdated": "2026-02-09"
     },
     {
-      "url": "ecosia.org",
+      "baseDomain": "netflix",
+      "name": "Netflix",
+      "privacyScore": 4,
+      "privacySource": "ToS;DR (B)",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "alternatives": [
+        {
+          "name": "MUBI",
+          "url": "https://mubi.com",
+          "description": "Arthouse-Filme."
+        },
+        {
+          "name": "Arte.tv",
+          "url": "https://arte.tv",
+          "description": "Kostenlose Kulturinhalte."
+        }
+      ],
+      "domains": ["netflix.com", "www.netflix.com", "netflix.de", "www.netflix.de"],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "baseDomain": "zalando",
+      "name": "Zalando",
+      "privacyScore": 3,
+      "privacySource": "ToS;DR (C)",
+      "sustainabilityScore": 1,
+      "sustainabilitySource": "The Green Web Foundation (grey)",
+      "alternatives": [
+        {
+          "name": "Avocadostore",
+          "url": "https://www.avocadostore.de",
+          "description": "Nachhaltige Mode mit Ökostrom-Hosting."
+        }
+      ],
+      "domains": ["zalando.de", "www.zalando.de", "zalando.com", "www.zalando.com"],
+      "lastUpdated": "2026-02-09"
+    },
+    {
+      "baseDomain": "ecosia",
+      "name": "Ecosia",
       "privacyScore": 5,
+      "privacySource": "ToS;DR (A)",
       "sustainabilityScore": 5,
-      "alternatives": "Keine Alternativen n\u00f6tig!"
+      "sustainabilitySource": "The Green Web Foundation (green)",
+      "alternatives": [],
+      "domains": ["ecosia.org", "www.ecosia.org"],
+      "lastUpdated": "2026-02-09"
     }
   ]
 }
